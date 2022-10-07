@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #CCA9DD;
+}
+.wrapper{
+    width: 485px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 22px 30px 40px;
+}
+.wrapper .captcha-area{
+    display: flex;
+    height: 65px;
+    margin: 30px 0 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper header{
+    color: #993399;
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+}
+.captcha-area .captcha-img{
+    height: 100%;
+    width: 345px;
+    position: relative;
+    background: #000;
+    border-radius: 5px;
+}
+.captcha-img img{
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.captcha-img .captacha{
+    position: absolute;
+    font-size: 35px;
+    letter-spacing: 10px;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
